@@ -1,0 +1,63 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://sublime.wbond.net/channel.json"
+	],
+	"http_cache": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BracketGuard",
+		"BufferScroll",
+		"Case Conversion",
+		"Codeivate",
+		"Color Schemes by carlcalderon",
+		"Djaneiro",
+		"Dockerfile Syntax Highlighting",
+		"Edit Preferences",
+		"EditorConfig",
+		"Emacs-like Modelines",
+		"Emmet",
+		"FindKeyConflicts",
+		"Future Funk - Color Scheme",
+		"GitGutter",
+		"Handlebars",
+		"HTML5",
+		"HTMLAttributes",
+		"Indent XML",
+		"Jinja2",
+		"Keymaps",
+		"MagicPython",
+		"MarkdownEditing",
+		"MJML-syntax",
+		"Mocha Snippets",
+		"Monokai JSON+",
+		"nginx",
+		"Nocturnal Color Scheme",
+		"One Dark Color Scheme",
+		"Package Control",
+		"Pretty JSON",
+		"Python Output Format",
+		"Sail Color Scheme",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-pylint",
+		"SublimePythonIDE",
+		"Syntax Highlighting for PostCSS",
+		"Syntax Highlighting for Sass",
+		"Theme - Soda",
+		"Theme - SoDaReloaded",
+		"Today Color Scheme"
+	]
+}

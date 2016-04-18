@@ -1,0 +1,27 @@
+[
+	{
+		"id": "side-bar-files-open-with",
+		"children": [
+			{
+				"caption": "GIMP",
+				"id": "side-bar-files-open-with-gimp",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "/usr/bin/gimp",
+					"extensions": "psd|png|jpg|jpeg|gif|xcf|ico"
+				}
+			},
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "/usr/bin/google-chrome",
+					"extensions": "*"
+				}
+			}
+		]
+	}
+]

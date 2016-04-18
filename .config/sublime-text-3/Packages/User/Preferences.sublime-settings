@@ -1,0 +1,104 @@
+{
+	"animation_enabled": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.java"
+		},
+		{
+			"characters": ".",
+			"selector": "source.javascript"
+		},
+		{
+			"characters": ".",
+			"selector": "source.python"
+		},
+		{
+			"characters": ".",
+			"selector": "text.html.django"
+		},
+		{
+			"characters": "ng-controller=\"*",
+			"selector": "punctuation.definition.string"
+		}
+	],
+	"auto_find_in_selection": false,
+	"auto_match_enabled": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"__pycache__/**"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
+	"caret_style": "blink",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/Nocturnal (SL) (SublimePythonIDE).tmTheme",
+	"drag_text": false,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"no_italic"
+	],
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Python",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"index_exclude_patterns":
+	[
+		".sass-cache",
+		"__pycache__",
+		"*.zip",
+		"*.log",
+		"/home/mandx/Work/livelinear-react/build*",
+		"env/local",
+		"/home/mandx/Work/airtrafficcontrol/airtrafficcontrol/__pycache__*"
+	],
+	"margin": 6,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		70,
+		79
+	],
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"sublimelinter_delay": 2,
+	"tab_size": 4,
+	"theme": "SoDaReloaded Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto"
+}

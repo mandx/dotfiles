@@ -1,0 +1,7 @@
+{
+    // A comma-separated list of disabled action names.
+    // Listed action will not be triggered by default keyboard
+    // shortcut.
+    // Use "all" value to disable all shortcuts at once
+    "disabled_keymap_actions": "decrement_number_by_10,increment_number_by_10,increment_number_by_1,decrement_number_by_1"
+}
