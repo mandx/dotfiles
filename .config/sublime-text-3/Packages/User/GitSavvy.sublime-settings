@@ -1,0 +1,52 @@
+{
+    /*
+        Change this to `true` to display a diff for the current commit
+        when writing a commit message.
+     */
+    "show_commit_diff": true,
+
+    /*
+        Change this to `true` to scroll to the first hunk automatically when
+        you open the inline-diff view.
+     */
+    "inline_diff_auto_scroll": true,
+
+    /*
+        Add entries to this array (e.g. "pull" or "push") if you'd like the
+        output of these Git commands to always be shown in a panel.
+     */
+    "show_panel_for": ["pull", "push"],
+
+    /*
+        Set this to `true` to display remotes in the branch dashboard by default.
+     */
+    "show_remotes_in_branch_dashboard": true,
+
+    /*
+        GitSavvy allows you to press `Tab` to cycle from one dashboard interface
+        to the next.  This setting defines the order of that cycle.  The following
+        are valid entries, and can be included in your preferred order:
+
+            status
+            branch
+            rebase
+            tags
+            graph
+
+     */
+    "tab_order": [
+        "status",
+        "branch",
+        "rebase",
+        "tags",
+        "graph"
+    ],
+
+    /*
+        By default, GitSavvy allows you attach arbitrary text meta-data to the
+        branches that you track locally.  If, however, you experience performance
+        problems because of this, feel free to turn this setting off, and the
+        descriptions will not be displayed.
+     */
+    "enable_branch_descriptions": false
+}

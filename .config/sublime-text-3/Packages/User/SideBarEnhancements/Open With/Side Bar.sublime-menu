@@ -1,27 +1,41 @@
 [
-	{
-		"id": "side-bar-files-open-with",
-		"children": [
-			{
-				"caption": "GIMP",
-				"id": "side-bar-files-open-with-gimp",
-				"command": "side_bar_files_open_with",
-				"args": {
-					"paths": [],
-					"application": "/usr/bin/gimp",
-					"extensions": "psd|png|jpg|jpeg|gif|xcf|ico"
-				}
-			},
-			{
-				"caption": "Chrome",
-				"id": "side-bar-files-open-with-chrome",
-				"command": "side_bar_files_open_with",
-				"args": {
-					"paths": [],
-					"application": "/usr/bin/google-chrome",
-					"extensions": "*"
-				}
-			}
-		]
-	}
+  {
+    "id": "side-bar-files-open-with",
+    "children": [
+      {
+        "caption": "GIMP",
+        "id": "side-bar-files-open-with-gimp",
+        "command": "side_bar_files_open_with",
+        "args": {
+          "paths": [],
+          "application": "/usr/bin/gimp",
+          "extensions": "psd|png|jpg|jpeg|gif|xcf|ico"
+        }
+      },
+      {
+        "caption": "Chrome",
+        "id": "side-bar-files-open-with-chrome",
+        "command": "side_bar_files_open_with",
+        "args": {
+          "paths": [],
+          "application": "google-chrome",
+          "extensions": ".*",
+          "args": []
+        },
+        "open_automatically": false
+      },
+      {
+        "caption": "POedit",
+        "id": "side-bar-files-open-with-poedit",
+        "command": "side_bar_files_open_with",
+        "args": {
+          "paths": [],
+          "application": "poedit",
+          "extensions": ".po",
+          "args": []
+        },
+        "open_automatically": false
+      }
+    ]
+  }
 ]
