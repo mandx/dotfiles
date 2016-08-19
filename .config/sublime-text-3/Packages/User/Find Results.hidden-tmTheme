@@ -18,11 +18,11 @@
 			<key>selection</key>
 			<string>#4f5b66</string>
 			<key>selectionForeground</key>
-			<string>#cdd3de</string>
+			<string>#c0c5ce</string>
 			<key>selectionBorder</key>
-			<string>#cdd3de</string>
+			<string>#fbc95a</string>
 			<key>caret</key>
-			<string>#6699cc</string>
+			<string>#fbc95a</string>
 
 		</dict>
 	</dict>
@@ -54,9 +54,9 @@
 		<key>settings</key>
 		<dict>
 			<key>background</key>
-			<string>#4f5b66</string>
+			<string>#1b2b34</string>
 			<key>foreground</key>
-			<string>#cdd3de</string>
+			<string>#ffffff</string>
 
 		</dict>
 	</dict>
@@ -65,6 +65,8 @@
 		<string>variable.matched_count.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>fontStyle</key>
+			<string>bold</string>
 
 		</dict>
 	</dict>
@@ -73,6 +75,8 @@
 		<string>variable.matched_files_count.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>fontStyle</key>
+			<string>bold</string>
 
 		</dict>
 	</dict>
@@ -81,8 +85,10 @@
 		<string>entity.name.filename.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>background</key>
+			<string>#6699cc</string>
 			<key>foreground</key>
-			<string>#99c794</string>
+			<string>#ffffff</string>
 
 		</dict>
 	</dict>
@@ -91,8 +97,10 @@
 		<string>match.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>background</key>
+			<string>#1b2b34</string>
 			<key>foreground</key>
-			<string>#5fb3b3</string>
+			<string>#ffffff</string>
 
 		</dict>
 	</dict>
@@ -101,8 +109,10 @@
 		<string>constant.numeric.line-number.match.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>background</key>
+			<string>#1b2b34</string>
 			<key>foreground</key>
-			<string>#5fb3b3</string>
+			<string>#ffffff</string>
 
 		</dict>
 	</dict>
@@ -111,8 +121,10 @@
 		<string>punctuation.line-number.match.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>background</key>
+			<string>#fef1b2</string>
 			<key>foreground</key>
-			<string>#5fb3b3</string>
+			<string>#fef1b2</string>
 
 		</dict>
 	</dict>
@@ -121,6 +133,10 @@
 		<string>constant.numeric.line-number.find-in-files</string>
 		<key>settings</key>
 		<dict>
+			<key>background</key>
+			<string>#1b2b34</string>
+			<key>foreground</key>
+			<string>#cdd3de</string>
 
 		</dict>
 	</dict>
@@ -141,3 +157,4 @@
 	<string>edcc9b28-ac04-4b4a-8fa3-f4be3c0d3b02</string>
 </dict>
 </plist>
+

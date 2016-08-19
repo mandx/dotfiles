@@ -22,6 +22,7 @@
 	"auto_match_enabled": true,
 	"binary_file_patterns":
 	[
+		"**/__pycache__/**",
 		"*.dds",
 		"*.eot",
 		"*.gif",
@@ -31,6 +32,7 @@
 		"*.jpg",
 		"*.pdf",
 		"*.png",
+		"*.pyc",
 		"*.swf",
 		"*.tga",
 		"*.ttf",
@@ -68,10 +70,14 @@
 	],
 	"index_exclude_patterns":
 	[
+		"*.log",
+		"*.pyc",
+		"*.zip",
 		".sass-cache",
 		"__pycache__",
+		"env/local",
 		"*.zip",
-		"*.log",
+		"*.log"
 	],
 	"margin": 6,
 	"overlay_scroll_bars": "enabled",

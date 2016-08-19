@@ -28,6 +28,7 @@
 		"HTML5",
 		"HTMLAttributes",
 		"Indent XML",
+		"Jinja2",
 		"Keymaps",
 		"MagicPython",
 		"MarkdownEditing",
@@ -36,7 +37,6 @@
 		"nginx",
 		"Nocturnal Color Scheme",
 		"Oceanic Next Color Scheme",
-		"One Half Color Schemes",
 		"Package Control",
 		"Pretty JSON",
 		"Python Output Format",
@@ -54,8 +54,6 @@
 		"SublimePythonIDE",
 		"Syntax Highlighting for PostCSS",
 		"Syntax Highlighting for Sass",
-		"Theme - Soda",
-		"Theme - SoDaReloaded",
-		"Today Color Scheme"
+		"Theme - SoDaReloaded"
 	]
 }
