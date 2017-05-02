@@ -13,6 +13,18 @@
         }
       },
       {
+        "caption": "Firefox",
+        "id": "side-bar-files-open-with-chrome",
+        "command": "side_bar_files_open_with",
+        "args": {
+          "paths": [],
+          "application": "firefox",
+          "extensions": ".*",
+          "args": []
+        },
+        "open_automatically": false
+      },
+      {
         "caption": "Chrome",
         "id": "side-bar-files-open-with-chrome",
         "command": "side_bar_files_open_with",

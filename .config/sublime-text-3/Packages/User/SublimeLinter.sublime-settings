@@ -78,7 +78,7 @@
 				[
 				],
 				"rcfile": "/home/mandx/.pylintrc",
-				"show-codes": false
+				"show-codes": true
 			},
 			"scss":
 			{
@@ -113,7 +113,6 @@
 			],
 			"osx":
 			[
-				"/usr/local/bin"
 			],
 			"windows":
 			[
@@ -131,7 +130,7 @@
 			[
 			]
 		},
-		"rc_search_limit": 3,
+		"rc_search_limit": 5,
 		"shell_timeout": 10,
 		"show_errors_on_save": false,
 		"show_marks_in_minimap": true,
@@ -144,6 +143,12 @@
 			"php": "html",
 			"python django": "python"
 		},
+		"tooltip_fontsize": "1rem",
+		"tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+		"tooltip_theme_excludes":
+		[
+		],
+		"tooltips": false,
 		"warning_color": "DDB700",
 		"wrap_find": true
 	}

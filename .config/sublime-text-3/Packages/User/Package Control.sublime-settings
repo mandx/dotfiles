@@ -10,6 +10,7 @@
 	],
 	"installed_packages":
 	[
+		"ayu",
 		"Babel",
 		"BetterFindBuffer",
 		"BracketGuard",
@@ -25,9 +26,11 @@
 		"Future Funk - Color Scheme",
 		"GitGutter",
 		"GitSavvy",
+		"GraphQL",
 		"HTML5",
 		"HTMLAttributes",
 		"Indent XML",
+		"Jedi - Python autocompletion",
 		"Jinja2",
 		"Keymaps",
 		"MagicPython",
@@ -51,9 +54,9 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-pylint",
-		"SublimePythonIDE",
 		"Syntax Highlighting for PostCSS",
 		"Syntax Highlighting for Sass",
-		"Theme - SoDaReloaded"
+		"Theme - SoDaReloaded",
+		"TypeScript"
 	]
 }

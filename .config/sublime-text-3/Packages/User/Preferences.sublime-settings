@@ -45,7 +45,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Nocturnal (SL) (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
 	"drag_text": false,
 	"find_selected_text": true,
 	"fold_buttons": false,
@@ -79,6 +79,7 @@
 		"*.zip",
 		"*.log"
 	],
+	"line_padding_bottom": 1,
 	"margin": 6,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
@@ -94,8 +95,14 @@
 	"show_line_endings": true,
 	"sublimelinter_delay": 2,
 	"tab_size": 4,
-	"theme": "SoDaReloaded Dark.sublime-theme",
+	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"ui_big_tabs": false,
+	"ui_fix_tab_labels": true,
+	"ui_font_size_small": false,
+	"ui_separator": true,
+	"ui_sidebar_highlight_row": true,
+	"ui_wide_scrollbars": true,
 	"word_wrap": "auto"
 }
