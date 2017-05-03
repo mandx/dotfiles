@@ -1,0 +1,1 @@
+/home/mandx/.config/fisherman/grc/functions/ls.fish

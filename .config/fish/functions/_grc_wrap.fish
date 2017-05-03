@@ -1,0 +1,1 @@
+/home/mandx/.config/fisherman/grc/functions/_grc_wrap.fish

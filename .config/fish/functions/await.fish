@@ -1,0 +1,1 @@
+/home/mandx/.config/fisherman/await/functions/await.fish
