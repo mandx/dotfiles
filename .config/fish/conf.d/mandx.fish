@@ -3,14 +3,14 @@ set FISH_CLIPBOARD_CMD "cat"
 
 # Aliases
 alias grep='grep --color=auto '
-alias ll='ls -alF'
+alias ll='ls --color -alF '
 alias psgrep='ps -ef | grep -i '
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 
 # Misc
-set -x VISUAL 'subl --wait'
-set -x LESS '--ignore-case --raw-control-chars'
-set -x BROWSER 'firefox'
+set -x VISUAL 'subl --wait '
+set -x LESS '--ignore-case --raw-control-chars '
+set -x BROWSER 'firefox '
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
 set -g default_user mandx

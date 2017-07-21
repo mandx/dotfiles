@@ -104,7 +104,7 @@
 			}
 		},
 		"mark_style": "stippled underline",
-		"no_column_highlights_line": false,
+		"no_column_highlights_line": true,
 		"passive_warnings": false,
 		"paths":
 		{
