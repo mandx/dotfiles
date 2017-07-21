@@ -6,7 +6,20 @@
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
+[push]
+	simple = true
 [pull]
 	rebase = true
+[merge]
+	ff = only
+	conflictstyle = diff3
+[transfer]
+	fsckobjects = true
+[diff]
+	tool = icdiff
+[difftool]
+	prompt = false
+[difftool "icdiff"]
+	cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
 [branch]
 	autosetuprebase = always
