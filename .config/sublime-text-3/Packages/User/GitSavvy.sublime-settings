@@ -1,9 +1,8 @@
 {
     /*
-        Change this to `true` to display a diff for the current commit
-        when writing a commit message.
+        Change this to `false` to suppress Git status in ST3 status bar.
      */
-    "show_commit_diff": true,
+    "git_status_in_status_bar": false,
 
     /*
         Change this to `true` to scroll to the first hunk automatically when
@@ -12,41 +11,19 @@
     "inline_diff_auto_scroll": true,
 
     /*
-        Add entries to this array (e.g. "pull" or "push") if you'd like the
-        output of these Git commands to always be shown in a panel.
-     */
-    "show_panel_for": ["pull", "push"],
+        When set to `true`, GitSavvy will prompt for confirmation when closing
+        the commit message view.
+    */
+    "prompt_on_abort_commit": true,
 
     /*
-        Set this to `true` to display remotes in the branch dashboard by default.
+        When set to `true`, you can navigate the dashboards by using arrow keys.
      */
-    "show_remotes_in_branch_dashboard": true,
+    "arrow_keys_navigation": true,
 
     /*
-        GitSavvy allows you to press `Tab` to cycle from one dashboard interface
-        to the next.  This setting defines the order of that cycle.  The following
-        are valid entries, and can be included in your preferred order:
-
-            status
-            branch
-            rebase
-            tags
-            graph
-
+        When set to `true`, no views will receive the prompt asking to initialize
+        Git in the current view's directory when not found.
      */
-    "tab_order": [
-        "status",
-        "branch",
-        "rebase",
-        "tags",
-        "graph"
-    ],
-
-    /*
-        By default, GitSavvy allows you attach arbitrary text meta-data to the
-        branches that you track locally.  If, however, you experience performance
-        problems because of this, feel free to turn this setting off, and the
-        descriptions will not be displayed.
-     */
-    "enable_branch_descriptions": false
+    "disable_git_init_prompt": true
 }

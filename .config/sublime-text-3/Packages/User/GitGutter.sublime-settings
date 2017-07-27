@@ -1,4 +1,16 @@
 {
+  // Do not set GitGutter icons in these regions
+  // Useful for making sure GitGutter does not override other
+  // regions, (e.g. Bookmarks, Linter/BracketHighlighter icons.)
+  "protected_regions": [
+    "sublimelinter-warning-gutter-marks",
+    "sublimelinter-error-gutter-marks",
+    "bookmarks"
+  ],
+  // Determines whether GitGutter shows status information in the status bar.
+  // Set false to disable status information.
+  // Set true to show information using the "status_bar_text" template.
+  "show_status_bar_text": true,
   // When set to true GitGutter runs asynchronously in a seperate thread
   // This may cause a small delay between a modification and the icon change
   // but can increase performance greatly if needed.
