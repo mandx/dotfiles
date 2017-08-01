@@ -1,3 +1,12 @@
 {
-    "sublime_completions_visibility": "list"
+  "auto_complete_function_params": "required",
+  "auto_complete_triggers": [
+    {
+      "characters": ".",
+      "selector": "source.python"
+    }
+  ],
+  "enable_tooltip": true,
+  "sublime_completions_visibility": "list",
+  "sublime_goto_layout": "two-panel-transient"
 }
