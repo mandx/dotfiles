@@ -6,21 +6,15 @@
         "args": { "paths": [] }
     },
     {
-        "caption": "Copy Path (Relative to Project)",
+        "caption": "Copy Absolute Path",
         "id": "context-from-side-bar-clip-copy-path",
-        "command": "side_bar_copy_path_absolute_from_project_encoded",
+        "command": "side_bar_copy_absolute_path",
         "args": { "paths": [] }
     },
     {
         "caption": "Copy Directory Path (Relative to Project)",
         "id": "context-from-side-bar-clip-copy-dir-path",
-        "command": "side_bar_copy_dir_path",
-        "args": { "paths": [] }
-    },
-    {
-        "caption": "Rename file\u2026",
-        "id": "context-from-side-bar-rename",
-        "command": "side_bar_rename",
+        "command": "side_bar_copy_relative_path",
         "args": { "paths": [] }
     },
     {
@@ -30,9 +24,15 @@
         "args": { "paths": [] }
     },
     {
-        "caption": "Duplicate\u2026",
+        "caption": "Duplicate file\u2026",
         "id": "side-bar-duplicate",
         "command": "side_bar_duplicate",
+        "args": { "paths": [] }
+    },
+    {
+        "caption": "New file\u2026",
+        "id": "side-bar-new",
+        "command": "side_bar_new",
         "args": { "paths": [] }
     }
 ]
