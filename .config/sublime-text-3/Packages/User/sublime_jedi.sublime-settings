@@ -6,7 +6,7 @@
       "selector": "source.python"
     }
   ],
-  "enable_tooltip": true,
+  "enable_tooltip": false,
   "sublime_completions_visibility": "list",
-  "sublime_goto_layout": "two-panel-transient"
+  "sublime_goto_layout": "single-panel-transient"
 }
