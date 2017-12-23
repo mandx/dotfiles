@@ -2,10 +2,10 @@
 set FISH_CLIPBOARD_CMD "cat"
 
 # Aliases
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 alias grep='grep --color=auto '
 alias ll='ls --color -alF '
 alias psgrep='ps -ef | grep -i '
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 
 # Misc
 set -x VISUAL 'subl --wait '
@@ -17,5 +17,7 @@ set -g default_user mandx
 set -g theme_display_git yes
 set -g theme_display_hg no
 set -g theme_display_ruby no
-set -g theme_display_user yes
+set -g theme_display_user no
 set -g theme_display_virtualenv yes
+set -g theme_avoid_ambiguous_glyphs yes
+set -g theme_display_cmd_duration yes
