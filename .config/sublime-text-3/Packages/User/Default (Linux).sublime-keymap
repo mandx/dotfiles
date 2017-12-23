@@ -1,0 +1,12 @@
+[
+  {
+    "keys": ["ctrl+shift+p"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        ["show_overlay", { "overlay": "command_palette" }],
+        ["select_all"]
+      ]
+    }
+  }
+]
