@@ -21,3 +21,4 @@ set -g theme_display_user no
 set -g theme_display_virtualenv yes
 set -g theme_avoid_ambiguous_glyphs yes
 set -g theme_display_cmd_duration yes
+set -g theme_display_k8s_context no

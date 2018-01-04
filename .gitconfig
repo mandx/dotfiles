@@ -6,6 +6,24 @@
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
+
+	## -- ## -- ## -- ## --
+
+	lg = log --color --decorate --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an (%G?)>%Creset' --abbrev-commit
+
+	# Remove branches that have already been merged with master
+	# a.k.a. ‘delete merged’
+	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; git remote -v update -p"
+
+	# Interactive rebase with the given number of latest commits
+	irebase = "!r() { git rebase -i HEAD~$1; }; r"
+
+	# Switch to a branch, creating it if necessary
+	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+
+	# Color graph log view
+	graph = log --graph --color --pretty=format:"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
+
 [push]
 	simple = true
 [pull]
@@ -23,3 +41,29 @@
 	cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
 [branch]
 	autosetuprebase = always
+
+## -- ## -- ## --
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold # line info
+	old = red # deletions
+	new = green # additions
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+
+[diff]
+	# Detect copies as well as renames
+	renames = copies
+
+[merge]
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
