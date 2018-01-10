@@ -8,8 +8,13 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"SublimeLinter"
+	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ayu",
 		"Babel",
 		"BetterFindBuffer",
@@ -23,15 +28,12 @@
 		"Emacs-like Modelines",
 		"Emmet",
 		"FindKeyConflicts",
-		"Future Funk - Color Scheme",
 		"GitGutter",
 		"GitSavvy",
 		"GraphQL",
-		"HTML5",
 		"HTMLAttributes",
 		"Indent XML",
 		"Jedi - Python autocompletion",
-		"Jinja2",
 		"JsPrettier",
 		"Keymaps",
 		"MagicPython",
@@ -39,22 +41,18 @@
 		"Mocha Snippets",
 		"Monokai JSON+",
 		"nginx",
-		"Nocturnal Color Scheme",
-		"Oceanic Next Color Scheme",
 		"Package Control",
 		"Pretty JSON",
 		"Python Output Format",
-		"Sail Color Scheme",
 		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-csslint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"Syntax Highlighting for PostCSS",
-		"Syntax Highlighting for Sass",
-		"Theme - SoDaReloaded"
+		"Syntax Highlighting for Sass"
 	]
 }
