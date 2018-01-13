@@ -44,15 +44,11 @@
 		"Package Control",
 		"Pretty JSON",
 		"Python Output Format",
-		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
-		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-contrib-stylelint",
-		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"Syntax Highlighting for PostCSS",
-		"Syntax Highlighting for Sass"
+		"TOML"
 	]
 }
