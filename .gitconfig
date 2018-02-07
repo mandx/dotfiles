@@ -13,7 +13,7 @@
 
 	# Remove branches that have already been merged with master
 	# a.k.a. ‘delete merged’
-	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; git remote -v update -p"
+	delete-merged = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; git remote -v update -p"
 
 	# Interactive rebase with the given number of latest commits
 	irebase = "!r() { git rebase -i HEAD~$1; }; r"
@@ -23,6 +23,8 @@
 
 	# Color graph log view
 	graph = log --graph --color --pretty=format:"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
+
+	find-commit-with = "!git log --source --all --decorate -S "
 
 [push]
 	simple = true
