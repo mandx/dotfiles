@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+    "statusbar.messages_template": "{message} [{linter} {type} {code}]",
     "styles": [
         {
             "mark_style": "stippled_underline",

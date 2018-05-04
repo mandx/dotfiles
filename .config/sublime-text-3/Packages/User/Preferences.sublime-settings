@@ -68,6 +68,7 @@
 	"ignored_packages":
 	[
 		"Python",
+		"Rust",
 		"Vintage"
 	],
 	"indent_guide_options":

@@ -14,15 +14,16 @@ set -x BROWSER 'firefox '
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # Theme (bobthefish) options
+set -U theme_avoid_ambiguous_glyphs yes
 set -U default_user mandx
 set -U theme_display_git yes
 set -U theme_display_hg no
 set -U theme_display_ruby no
 set -U theme_display_user no
 set -U theme_display_virtualenv yes
-set -U theme_avoid_ambiguous_glyphs yes
 set -U theme_display_cmd_duration yes
 set -U theme_display_k8s_context no
+set -U theme_display_git_master_branch yes
 
 # fzf options
 set -U FZF_LEGACY_KEYBINDINGS 0

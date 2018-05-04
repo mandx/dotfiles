@@ -1,3 +1,2 @@
-set -gx GOROOT /usr/lib/go-1.9
-set -gx PATH $PATH $GOROOT/bin
+set -gx PATH $PATH /usr/lib/go-1.10/bin
 
