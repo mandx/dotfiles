@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+    "debug": false,
     "statusbar.messages_template": "{message} [{linter} {type} {code}]",
     "styles": [
         {

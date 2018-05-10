@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+// flowlint-${1:next-}line unclear-type:${2:off}
+]]></content>
+    <!-- Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>flowlint-unclear-type-</tabTrigger>
+    <!-- Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

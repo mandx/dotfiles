@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+// flowlint-${1:next-}line sketchy-null-number:${2:off}
+]]></content>
+    <!-- Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>flowlint-sketchy-number-</tabTrigger>
+    <!-- Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
