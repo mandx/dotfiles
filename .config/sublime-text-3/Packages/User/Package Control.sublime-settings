@@ -14,7 +14,6 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"ayu",
 		"Babel",
 		"BetterFindBuffer",
@@ -27,6 +26,7 @@
 		"EditorConfig",
 		"Emacs-like Modelines",
 		"Emmet",
+		"FileIcons Mono",
 		"FindKeyConflicts",
 		"GitGutter",
 		"GitSavvy",
