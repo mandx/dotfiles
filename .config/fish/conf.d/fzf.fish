@@ -1,1 +1,0 @@
-/home/mandx/.config/fisherman/fzf/conf.d/fzf.fish

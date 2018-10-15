@@ -7,6 +7,9 @@ alias grep='grep --color=auto '
 alias ll='ls --color -alF '
 alias psgrep='ps -ef | grep -i '
 
+alias gitg='env GTK_THEME=Arc-Darker gitg'
+alias meld='env GTK_THEME=Arc-Darker meld'
+
 # Globals
 set -x VISUAL 'subl --wait '
 set -x LESS '--ignore-case --raw-control-chars '
@@ -26,5 +29,5 @@ set -U theme_display_k8s_context no
 set -U theme_display_git_master_branch yes
 
 # fzf options
-set -U FZF_LEGACY_KEYBINDINGS 0
+set -U FZF_LEGACY_KEYBINDINGS 1
 

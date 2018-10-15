@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/ifconfig.fish
+_grc_wrap ifconfig

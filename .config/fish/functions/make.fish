@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/make.fish
+_grc_wrap make

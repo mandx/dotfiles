@@ -1,1 +1,0 @@
-/home/mandx/.config/fisherman/getopts/getopts.fish

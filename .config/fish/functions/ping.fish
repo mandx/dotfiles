@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/ping.fish
+_grc_wrap ping

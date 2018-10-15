@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/mtr.fish
+_grc_wrap mtr

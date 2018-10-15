@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/cvs.fish
+_grc_wrap cvs

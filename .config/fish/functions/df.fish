@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/df.fish
+_grc_wrap df

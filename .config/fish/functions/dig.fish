@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/dig.fish
+_grc_wrap dig

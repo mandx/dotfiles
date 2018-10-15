@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/diff.fish
+_grc_wrap diff

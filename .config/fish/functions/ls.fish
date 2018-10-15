@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/ls.fish
+_grc_wrap ls

@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/traceroute.fish
+_grc_wrap traceroute

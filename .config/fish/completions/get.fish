@@ -1,1 +1,0 @@
-/home/mandx/.config/fisherman/get/completions/get.fish

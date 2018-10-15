@@ -1,1 +1,1 @@
-/home/mandx/.config/fisherman/grc/functions/g++.fish
+_grc_wrap g++
