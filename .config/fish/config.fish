@@ -9,6 +9,3 @@ alias psgrep='ps -ef | grep -i '
 # Misc
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
-set fisher_home ~/.local/share/fisherman
-set fisher_config ~/.config/fisherman
-source $fisher_home/config.fish
