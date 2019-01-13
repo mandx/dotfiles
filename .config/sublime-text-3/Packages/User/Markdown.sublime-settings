@@ -1,3 +1,17 @@
 {
-    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme"
+  "extensions": [
+    "markdown",
+    "md",
+    "mdown",
+    "txt"
+  ],
+  "draw_centered": true,
+  "word_wrap": true,
+  // Fold current section
+  // Default keys: (OSX/Linux/Win)shift+tab
+  "mde.keymap_disable.fold_section": true,
+  // Open a panel showing all functions related to folding
+  // Default keys: (OSX/Linux/Win)ctrl+shift+tab
+  "mde.keymap_disable.show_fold_all_sections": true,
+  "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme"
 }
