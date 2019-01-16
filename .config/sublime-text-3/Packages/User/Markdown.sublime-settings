@@ -5,13 +5,13 @@
     "mdown",
     "txt"
   ],
-  "draw_centered": true,
+  "draw_centered": false,
   "word_wrap": true,
   // Fold current section
   // Default keys: (OSX/Linux/Win)shift+tab
-  "mde.keymap_disable.fold_section": true,
+  "mde.keymap_disable.fold_section": false,
   // Open a panel showing all functions related to folding
   // Default keys: (OSX/Linux/Win)ctrl+shift+tab
-  "mde.keymap_disable.show_fold_all_sections": true,
+  "mde.keymap_disable.show_fold_all_sections": false,
   "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme"
 }
