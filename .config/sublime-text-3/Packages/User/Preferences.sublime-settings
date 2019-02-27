@@ -1,4 +1,8 @@
 {
+	"added_words":
+	[
+		"workflow"
+	],
 	"animation_enabled": true,
 	"atomic_save": true,
 	"auto_complete_commit_on_tab": false,
