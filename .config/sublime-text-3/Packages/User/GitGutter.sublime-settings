@@ -7,22 +7,35 @@
   // "diff": Compare the git state to the working state and highlight
   //         the differences in the popup
   "diff_popup_default_mode": "default",
+
   // Do not set GitGutter icons in these regions
   // Useful for making sure GitGutter does not override other
   // regions, (e.g. Bookmarks, Linter/BracketHighlighter icons.)
   "protected_regions": [
     "sublimelinter-warning-gutter-marks",
     "sublimelinter-error-gutter-marks",
-    "bookmarks"
+    "sublime_linter.protected_regions",
+    "bookmarks",
+    "lsp_error",
+    "lsp_warning",
+    "lsp_info"
   ],
+
   // Determines whether GitGutter shows status information in the status bar.
   // Set false to disable status information.
   // Set true to show information using the "status_bar_text" template.
-  "show_status_bar_text": true,
+  "show_status_bar_text": false,
+
   // When set to true GitGutter runs asynchronously in a seperate thread
   // This may cause a small delay between a modification and the icon change
   // but can increase performance greatly if needed.
   "non_blocking": true,
+
+  // Show GitGutter information in the minimap
+  // =0: hide markers
+  // >0: width of markers
+  // -1: highlight full line
+  "show_in_minimap": -1,
 
   // (ST3, Build 3124+ only)
   // Display a phantom text at the end of the active line with information
