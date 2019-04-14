@@ -72,6 +72,7 @@ set -g theme_display_git_dirty no
 set -g theme_display_git_untracked no
 set -g theme_display_git_ahead_verbose yes
 set -g theme_display_git_dirty_verbose yes
+set -g theme_display_git_stashed_verbose yes
 set -g theme_display_git_master_branch yes
 set -g theme_git_worktree_support yes
 set -g theme_display_vagrant yes
@@ -99,6 +100,7 @@ set -g theme_color_scheme dark
 set -g fish_prompt_pwd_dir_length 0
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
+set -g theme_newline_prompt '$ '
 ```
 
 **Title options**
@@ -121,11 +123,12 @@ set -g theme_newline_cursor yes
 - `fish_prompt_pwd_dir_length`. bobthefish respects the Fish `$fish_prompt_pwd_dir_length` setting to abbreviate the prompt path. Set to `0` to show the full path, `1` (default) to show only the first character of each parent directory name, or any other number to show up to that many characters.
 - `theme_project_dir_length`. The same as `$fish_prompt_pwd_dir_length`, but for the path relative to the current project root. Defaults to `0`; set to any other number to show an abbreviated path.
 - `theme_newline_cursor`. Use `yes` to have cursor start on a new line. By default the prompt is only one line. When working with long directories it may be preferrend to have cursor on the next line. Setting this to `clean` instead of `yes` suppresses the caret on the new line.
+- `theme_newline_prompt`. Use a custom prompt with newline cursor. By default this is the chevron right glyph or `>` when powerline fonts are disabled.
 
 **Color scheme options**
 
 | ![dark][dark]           | ![light][light]                     |
-|-------------------------|-------------------------------------|
+| ----------------------- | ----------------------------------- |
 | ![solarized][solarized] | ![solarized-light][solarized-light] |
 | ![base16][base16]       | ![base16-light][base16-light]       |
 | ![zenburn][zenburn]     | ![terminal-dark][terminal-dark]     |
