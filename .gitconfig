@@ -72,3 +72,6 @@
 [user]
 	email = gmandx@gmail.com
 	name = Armando Perez
+[core]
+	excludesfile = ~/.gitignore_global
+

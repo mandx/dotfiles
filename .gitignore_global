@@ -1,0 +1,10 @@
+*.sublime-workspace
+*.DS_Store
+.venv/
+.env/
+.env2.7/
+.env3.6/
+.env3.7/
+env*.fish
+.editorconfig
+
