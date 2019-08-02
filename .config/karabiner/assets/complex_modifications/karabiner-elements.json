@@ -8,7 +8,7 @@
             {
               "bundle_identifiers": [
                 "^org\\.vim\\.",
-                "^com.googlecode.iterm2"
+                "^com\\.googlecode\\.iterm2"
               ],
               "type": "frontmost_application_unless"
             }
