@@ -1,0 +1,52 @@
+[character]
+error_symbol = "✖ ❯"
+use_symbol_for_status = true
+
+[git_status]
+ahead = "+"
+behind = "-"
+diverged = "±"
+untracked = "…"
+stashed = "$"
+modified = "*"
+staged = "~"
+conflicted = "≠"
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
+
+[php]
+disabled = true
+
+[golang]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[battery]
+disabled = true
+
+[conda]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[env_var]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[java]
+disabled = true
+
+[terraform]
+disabled = true
