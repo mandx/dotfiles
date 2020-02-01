@@ -50,3 +50,10 @@ disabled = true
 
 [terraform]
 disabled = true
+
+[haskell]
+disabled = true
+
+[nix_shell]
+disabled = true
+
