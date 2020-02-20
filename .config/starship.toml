@@ -57,3 +57,8 @@ disabled = true
 [nix_shell]
 disabled = true
 
+[crystal]
+disabled = true
+
+[elm]
+disabled = true
