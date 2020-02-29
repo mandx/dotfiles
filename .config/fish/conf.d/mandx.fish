@@ -18,6 +18,5 @@ set -gx PATH $PATH $HOME/.local/bin
 
 # Initialize `pipenv` if it's available
 if command -sq pipenv
-     pyenv init - | source
+    pyenv init - | source
 end
-
