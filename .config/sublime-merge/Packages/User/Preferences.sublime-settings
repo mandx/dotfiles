@@ -1,7 +1,12 @@
 {
-	"diff_style": "side-by-side",
+	"diff_style": "auto",
 	"font_face": "Ubuntu Mono",
 	"font_size": 13,
 	"theme": "Merge Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"side_bar_layout": "tabs",
+    "font_options":
+    [
+        "no_italic"
+    ]
 }
