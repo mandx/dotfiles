@@ -1,5 +1,14 @@
 // SublimeLinter Settings - User
 {
+    "linters": {
+        // Disable ESLint globally, we only want it for specific projects
+        "eslint": {
+            "disable": true,
+        },
+        "pylint": {
+            "disable": true,
+        }
+    },
     "debug": false,
     "statusbar.messages_template": "{message} [{linter} {type} {code}]",
     "styles": [
