@@ -26,10 +26,9 @@
 		"GraphQL",
 		"HTMLAttributes",
 		"Indent XML",
-		"Jedi - Python autocompletion",
-		"JsPrettier",
 		"Keymaps",
 		"LSP",
+		"LSP-typescript",
 		"MagicPython",
 		"MarkdownEditing",
 		"Monokai JSON+",
@@ -37,11 +36,13 @@
 		"Pretty JSON",
 		"Python Output Format",
 		"Rust Enhanced",
+		"RustFmt",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"Syntax Highlighting for PostCSS",
-		"TOML"
+		"TOML",
+		"TypeScript Syntax"
 	]
 }
