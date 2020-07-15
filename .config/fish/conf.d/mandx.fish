@@ -6,6 +6,8 @@ alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 alias grep='grep --color=auto '
 alias psgrep='ps -ef | grep -i '
 alias ll='exa -alF --group-directories-first '
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
 # Globals
 set -x VISUAL 'subl --wait '
