@@ -12,6 +12,9 @@ modified = "*"
 staged = "~"
 conflicted = "≠"
 
+[package]
+display_private = true
+
 [nodejs]
 disabled = true
 
@@ -57,8 +60,36 @@ disabled = true
 [nix_shell]
 disabled = true
 
-[crystal]
+[elixir]
+disabled = true
+
+[singularity]
 disabled = true
 
 [elm]
 disabled = true
+
+[crystal]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[julia]
+disabled = true
+
+[erlang]
+disabled = true
+
+[ocaml]
+disabled = True
+
+[nim]
+disabled = True
+
+[purescript]
+disabled = True
+
+[zig]
+disabled = True
+
