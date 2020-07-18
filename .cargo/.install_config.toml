@@ -1,0 +1,7 @@
+[ripgrep]
+default_features = false
+features = []
+
+[starship]
+default_features = false
+features = []
