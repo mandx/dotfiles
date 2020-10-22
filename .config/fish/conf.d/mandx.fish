@@ -22,3 +22,8 @@ set -gx PATH $PATH $HOME/.local/bin
 if command -sq pipenv
     pyenv init - | source
 end
+
+if command -sq direnv
+    eval (direnv hook fish)
+end
+
