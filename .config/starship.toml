@@ -7,7 +7,7 @@ ahead = "+"
 behind = "-"
 diverged = "±"
 untracked = "…"
-stashed = "$"
+stashed = "\\$"
 modified = "*"
 staged = "~"
 conflicted = "≠"
@@ -82,14 +82,30 @@ disabled = true
 disabled = true
 
 [ocaml]
-disabled = True
+disabled = true
 
 [nim]
-disabled = True
+disabled = true
 
 [purescript]
-disabled = True
+disabled = true
 
 [zig]
-disabled = True
+disabled = true
+
+[swift]
+disabled = true
+
+[perl]
+disabled = true
+
+[helm]
+disabled = true
+
+[dart]
+disabled = true
+
+[cmake]
+disabled = true
+
 
