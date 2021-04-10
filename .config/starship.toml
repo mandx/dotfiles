@@ -108,4 +108,18 @@ disabled = true
 [cmake]
 disabled = true
 
+[lua]
+disabled = true
+
+[openstack]
+disabled = true
+
+[meson]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[vagrant]
+disabled = true
 
