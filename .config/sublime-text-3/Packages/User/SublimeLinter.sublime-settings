@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+    "debug": false,
     "linters": {
         // Disable ESLint globally, we only want it for specific projects
         "eslint": {

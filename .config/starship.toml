@@ -1,6 +1,5 @@
 [character]
 error_symbol = "✖ ❯"
-use_symbol_for_status = true
 
 [git_status]
 ahead = "+"
@@ -54,8 +53,8 @@ disabled = true
 [terraform]
 disabled = true
 
-[haskell]
-disabled = true
+#[haskell]
+#disabled = true
 
 [nix_shell]
 disabled = true
@@ -114,12 +113,27 @@ disabled = true
 [openstack]
 disabled = true
 
-[meson]
-disabled = true
+#[meson]
+#disabled = true
 
 [kotlin]
 disabled = true
 
 [vagrant]
+disabled = true
+
+[deno]
+disabled = true
+
+[vlang]
+disabled = true
+
+[rlang]
+disabled = true
+
+[cobol]
+disabled = true
+
+[pulumi]
 disabled = true
 

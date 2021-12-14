@@ -1,8 +1,18 @@
 execute pathogen#infect()
 
+" Display line number
 set nu
+
+" Show incremental search results as you type
 set incsearch
+
+" Highlight all search results
 set hlsearch
+
+" Disable case-sensitivity in searches,
+" however if a pattern contains an uppercase letter,
+" it is case sensitive, otherwise, it is not.
+set ignorecase
 set smartcase
 
 " Allow backspacing over autoindent, line breaks and start of insert action

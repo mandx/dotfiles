@@ -1,9 +1,13 @@
 {
+	"draw_unicode_white_space": true,
+	"draw_unicode_bidi": true,
+    "gtk_client_side_window_decorations": false,
 	"added_words":
 	[
-		"workflow"
+		"workflow",
 	],
 	"animation_enabled": true,
+	"hardware_acceleration": "opengl",
 	"atomic_save": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
@@ -11,15 +15,15 @@
 	[
 		{
 			"characters": ".",
-			"selector": "source.javascript"
+			"selector": "source.javascript",
 		},
 		{
 			"characters": ".",
-			"selector": "source.python"
+			"selector": "source.python",
 		},
 		{
 			"characters": ".",
-			"selector": "text.html.django"
+			"selector": "text.html.django",
 		}
 	],
 	"auto_find_in_selection": false,
@@ -43,13 +47,14 @@
 		"*.zip",
 		"__pycache__/**"
 	],
+	"preview_on_click": "only_left",
 	"bold_folder_labels": true,
+	"match_brackets_angle": true,
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 2,
 	"caret_style": "blink",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"drag_text": false,
 	"find_selected_text": true,
 	"fold_buttons": false,
@@ -66,14 +71,17 @@
 	[
 		"no_italic"
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"show_tab_close_buttons": true,
+	"hide_new_tab_button": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Python",
 		"Rust",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -89,7 +97,8 @@
 		"__pycache__",
 		"env/local",
 		"*.zip",
-		"*.log"
+		"*.log",
+		"node_modules/*"
 	],
 	"line_padding_bottom": 1,
 	"margin": 6,
@@ -97,7 +106,8 @@
 	"rulers":
 	[
 		70,
-		79
+		79,
+		100,
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
@@ -109,7 +119,7 @@
 	"tab_size": 4,
 	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": "all",
 	"ui_big_tabs": false,
 	"ui_fix_tab_labels": false,
 	"ui_font_default": true,
@@ -117,5 +127,8 @@
 	"ui_separator": true,
 	"ui_sidebar_highlight_row": true,
 	"ui_wide_scrollbars": true,
-	"word_wrap": "auto"
+	"word_wrap": "auto",
+	"trim_only_modified_white_space": false,
+	"ensure_newline_at_eof_on_save": true,
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 }

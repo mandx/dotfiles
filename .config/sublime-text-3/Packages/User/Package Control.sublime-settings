@@ -38,12 +38,15 @@
 		"Python Output Format",
 		"Rust Enhanced",
 		"RustFmt",
+		"SCSS",
+		"SideBarTools",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"Syntax Highlighting for PostCSS",
 		"TOML",
-		"TypeScript Syntax"
-	]
+		"TypeScript Syntax",
+		"Vue Syntax Highlight",
+	],
 }

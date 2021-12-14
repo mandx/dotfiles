@@ -1,4 +1,5 @@
 {
+    "gtk_client_side_window_decorations": false,
 	"diff_style": "auto",
 	"font_face": "Ubuntu Mono",
 	"font_size": 13,
@@ -8,5 +9,6 @@
     "font_options":
     [
         "no_italic"
-    ]
+	],
+	"ignore_diff_white_space": false,
 }
