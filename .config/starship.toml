@@ -29,9 +29,6 @@ disabled = true
 [kubernetes]
 disabled = true
 
-[battery]
-disabled = true
-
 [conda]
 disabled = true
 
@@ -136,4 +133,7 @@ disabled = true
 
 [pulumi]
 disabled = true
+
+[sudo]
+disabled = false
 
