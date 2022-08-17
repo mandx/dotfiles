@@ -23,5 +23,5 @@ if command -sq pipenv
     pyenv init - | source
 end
 
-eval (direnv hook fish)
+direnv hook fish | source
 
