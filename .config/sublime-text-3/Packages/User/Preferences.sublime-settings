@@ -71,7 +71,7 @@
 	[
 		"no_italic"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"show_tab_close_buttons": true,
@@ -127,7 +127,6 @@
 	"ui_separator": true,
 	"ui_sidebar_highlight_row": true,
 	"ui_wide_scrollbars": true,
-	"word_wrap": "auto",
 	"trim_only_modified_white_space": false,
 	"ensure_newline_at_eof_on_save": true,
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",

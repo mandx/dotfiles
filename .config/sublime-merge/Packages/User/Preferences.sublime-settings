@@ -11,4 +11,7 @@
         "no_italic"
 	],
 	"ignore_diff_white_space": false,
+	"always_show_command_status": true,
+	"hardware_acceleration": "opengl",
+	"signature_error_highlighting": "no_public_key",
 }

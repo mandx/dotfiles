@@ -50,8 +50,11 @@ disabled = true
 [terraform]
 disabled = true
 
-#[haskell]
-#disabled = true
+[haskell]
+disabled = true
+
+[buf]
+disabled = true
 
 [nix_shell]
 disabled = true
@@ -135,5 +138,11 @@ disabled = true
 disabled = true
 
 [sudo]
+disabled = false
+
+[daml]
+disabled = true
+
+[raku]
 disabled = false
 

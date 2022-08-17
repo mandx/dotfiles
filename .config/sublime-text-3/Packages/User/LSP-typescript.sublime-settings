@@ -10,13 +10,5 @@
       "javascript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
       "javascript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
       "javascript.inlayHints.includeInlayVariableTypeHints": true,
-      // Typescript inlay hints options.
-      "typescript.inlayHints.includeInlayEnumMemberValueHints": true,
-      "typescript.inlayHints.includeInlayFunctionLikeReturnTypeHints": true,
-      "typescript.inlayHints.includeInlayFunctionParameterTypeHints": true,
-      "typescript.inlayHints.includeInlayParameterNameHints": "none",
-      "typescript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
-      "typescript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
-      "typescript.inlayHints.includeInlayVariableTypeHints": true,
     }
   }
