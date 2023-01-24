@@ -78,7 +78,6 @@
 	"hide_new_tab_button": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Rust",
 		"Vintage",
 	],
@@ -128,5 +127,5 @@
 	"ui_wide_scrollbars": true,
 	"trim_only_modified_white_space": false,
 	"ensure_newline_at_eof_on_save": true,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Mocha.sublime-color-scheme",
 }

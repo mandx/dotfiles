@@ -113,9 +113,6 @@ disabled = true
 [openstack]
 disabled = true
 
-#[meson]
-#disabled = true
-
 [kotlin]
 disabled = true
 
@@ -144,8 +141,17 @@ disabled = false
 disabled = true
 
 [raku]
-disabled = false
+disabled = true
 
 [meson]
-disabled = false
+disabled = true
+
+[haxe]
+disabled = true
+
+[os]
+disabled = true
+
+[guix_shell]
+disabled = true
 
