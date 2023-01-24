@@ -18,6 +18,8 @@ set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 # Needed for pipx
 set -gx PATH $PATH $HOME/.local/bin
 
+set -x fish_cursor_selection_mode inclusive
+
 # Initialize `pipenv` if it's available
 if command -sq pipenv
     pyenv init - | source
