@@ -146,6 +146,18 @@ disabled = true
 [meson]
 disabled = true
 
+[pijul_channel]
+disabled = true
+
+[fennel]
+disabled = true
+
+[fossil_branch]
+disabled = true
+
+[gradle]
+disabled = true
+
 [haxe]
 disabled = true
 
