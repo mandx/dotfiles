@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "typescript": "^5.2.2",
+    "typescript-language-server": "^4.0.0",
+    "vscode-langservers-extracted": "^4.8.0"
+  }
+}
