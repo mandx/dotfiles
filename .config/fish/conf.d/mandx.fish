@@ -5,9 +5,11 @@ set FISH_CLIPBOARD_CMD "cat"
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 alias grep='grep --color=auto '
 alias psgrep='ps -ef | grep -i '
-alias ll='exa -alF --group-directories-first '
+alias ll='eza -alF --group-directories-first '
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 
 # Globals
 set -x VISUAL 'subl --wait '
@@ -26,4 +28,6 @@ if command -sq pipenv
 end
 
 direnv hook fish | source
+
+set -gx GOBIN $HOME/.local/go/bin/
 

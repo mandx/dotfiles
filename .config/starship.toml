@@ -167,3 +167,6 @@ disabled = true
 [guix_shell]
 disabled = true
 
+[solidity]
+disabled = true
+
