@@ -1,0 +1,10 @@
+inherits = "gruvbox_dark_hard"
+
+# Needs this PR merged first
+# https://github.com/helix-editor/helix/pull/8750
+# "ui.virtual.indent-guide" = "#000000"
+
+# "ui.statusline.normal" = { fg = "white", bg = "base4" }
+# "ui.statusline.insert" = { fg = "white", bg = "green" }
+# "ui.statusline.select" = { fg = "white", bg = "purple" }
+"ui.statusline.separator" = { fg = "#000000", bg = "bg2" }

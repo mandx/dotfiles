@@ -1,5 +1,5 @@
 [language-server.eslint]
-command = "/home/mandx/.config/helix/lsp-servers/node_modules/.bin/vscode-eslint-language-server"
+command = "vscode-eslint-language-server"
 args = [ "--stdio" ]
 
 [language-server.eslint.config]
@@ -14,22 +14,19 @@ experimental = {}
 problems = { shortenToSingleLine = false }
 
 [language-server.typescript-language-server]
-command = "/home/mandx/.config/helix/lsp-servers/node_modules/.bin/typescript-language-server"
-args = [ "--stdio" ]
 config.documentFormatting = false
 
 [[language]]
 name = "typescript"
 language-servers = [ "typescript-language-server", "eslint" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server", "eslint" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
 
 [[language]]
 name = "javascript"
-scope = "source.js"
-injection-regex = "(js|javascript)"
-language-id = "javascript"
-file-types = ["js", "mjs", "cjs", "rules", "es6", "pac", "jakefile"]
-shebangs = ["node"]
-roots = []
-comment-token = "//"
-indent = { tab-width = 2, unit = "  " }
 language-servers = [ "typescript-language-server", "eslint" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
