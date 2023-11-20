@@ -3,6 +3,8 @@ command = "vscode-eslint-language-server"
 args = [ "--stdio" ]
 
 [language-server.eslint.config]
+codeAction.disableRuleComment = {}
+codeAction.showDocumentation = {}
 codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
 format = { enable = true }
 nodePath = ""
