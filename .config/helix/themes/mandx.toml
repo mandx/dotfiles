@@ -1,10 +1,20 @@
 inherits = "gruvbox_dark_hard"
 
-# Needs this PR merged first
-# https://github.com/helix-editor/helix/pull/8750
 # "ui.virtual.indent-guide" = "#000000"
 
 # "ui.statusline.normal" = { fg = "white", bg = "base4" }
-# "ui.statusline.insert" = { fg = "white", bg = "green" }
-# "ui.statusline.select" = { fg = "white", bg = "purple" }
-"ui.statusline.separator" = { fg = "#000000", bg = "bg2" }
+"ui.statusline.insert" = { fg = "#ffffff", bg = "green0" }
+"ui.statusline.select" = { fg = "#ffffff", bg = "purple0" }
+"ui.statusline.separator" = { fg = "bg0" }
+
+"ui.bufferline" = { fg = "fg1", bg = "bg1"}
+"ui.bufferline.active" = { fg = "fg0", bg = "bg0" }
+
+# This affects picker items
+"ui.text.focus" = { fg = "fg0", bg = "bg1", modifiers = ["bold"] }
+
+# "ui.selection" = { bg = "bg2" }
+# "ui.selection.primary" = { bg = "bg3" }
+
+[palette]
+bg0 = "#000000" # main background

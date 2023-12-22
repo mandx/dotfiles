@@ -1,5 +1,6 @@
 # Prevent fish from altering the X clipboard
 set FISH_CLIPBOARD_CMD "cat"
+set -x fish_cursor_selection_mode inclusive
 
 # Aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
@@ -12,22 +13,25 @@ alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
 # Globals
-set -x VISUAL 'subl --wait '
+set -x VISUAL 'hx '
 set -x LESS '--ignore-case --raw-control-chars '
-set -x BROWSER 'firefox '  # TODO: Make sure this is only used on Linux
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
-# Needed for pipx
+set -gx GOBIN $HOME/.local/go/bin/
 set -gx PATH $PATH $HOME/.local/bin
+set -gx JUST_CHOOSER sk
 
-set -x fish_cursor_selection_mode inclusive
+switch (uname)
+  case 'Linux'
+    set -x BROWSER 'firefox '
+end
 
 # Initialize `pipenv` if it's available
 if command -sq pipenv
     pyenv init - | source
 end
 
-direnv hook fish | source
-
-set -gx GOBIN $HOME/.local/go/bin/
+if command -sq direnv
+    direnv hook fish | source
+end
 

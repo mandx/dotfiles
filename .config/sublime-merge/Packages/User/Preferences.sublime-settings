@@ -2,7 +2,7 @@
     "gtk_client_side_window_decorations": false,
 	"diff_style": "auto",
 	"font_face": "Ubuntu Mono",
-	"font_size": 13,
+	"font_size": 12,
 	"theme": "Merge Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"side_bar_layout": "tabs",

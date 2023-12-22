@@ -9,6 +9,7 @@ preview-completion-insert = false
 completion-trigger-len = 1
 completion-replace = true
 color-modes = true
+popup-border = "popup"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -25,29 +26,49 @@ render = true
 display-messages = true
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
-right = ["separator", "file-type", "file-encoding", "diagnostics", "separator", "selections", "register", "position", "primary-selection-length"]
-center = ["version-control"]
 separator = "┋"
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator", "file-type", "diagnostics", "separator"]
+center = ["version-control"]
+right = ["separator", "register", "separator", "file-encoding", "separator", "selections", "position", "primary-selection-length"]
 
 [keys.normal]
-"A-," = "goto_previous_buffer"
-"A-/" = "goto_next_buffer"
-"A-w" = ":buffer-close"
-"X" = ["extend_line_up", "extend_to_line_bounds"]
-"end" = ["goto_line_end", "move_char_right"]
+"tab" = ["indent"]
+"S-tab" = ["unindent"]
+"backspace" = ["move_char_left", "delete_selection_noyank"]
+"end" = "insert_at_line_end"
+"ret" = "open_below"
 "esc" = ["collapse_selection", "keep_primary_selection"]
-"C-left" = ["move_prev_word_start"]
-"C-right" = ["move_next_word_start"]
+"G" = "goto_last_line"
+"X" = ["extend_line_up", "extend_to_line_bounds"]
+"A-1" = "goto_previous_buffer"
+"A-2" = "goto_next_buffer"
+"A-w" = ":buffer-close"
+"A-/" = "toggle_comments"
+"C-left" = "move_prev_word_start"
+"C-right" = "move_next_word_start"
+"C-up" = "goto_prev_paragraph"
+"C-down" = "goto_next_paragraph"
+"C-u" = "no_op"
+"C-d" = ["search_selection", "select_mode"]
+
+[keys.select]
+"C-u" = "no_op"
+"C-d" = ["search_selection", "extend_search_next"]
 
 [keys.normal."A-backspace"]
 o = ":config-open"
 r = ":config-reload"
-l = ":o ~/.config/helix/languages.toml"
+l = ":open ~/.config/helix/languages.toml"
+t = ":open ~/.config/helix/themes/mandx.toml"
 
 [keys.insert]
-"C-left" = ["move_prev_word_start"]
-"C-right" = ["move_next_word_start"]
+"tab" = ["indent"]
+"S-tab" = ["unindent"]
+"ins" = ["paste_before"]
+"C-left" = ["move_prev_word_start", "collapse_selection"]
+"C-right" = ["move_next_word_start", "collapse_selection"]
+"C-up" = ["goto_prev_paragraph", "collapse_selection"]
+"C-down" = ["goto_next_paragraph", "collapse_selection"]

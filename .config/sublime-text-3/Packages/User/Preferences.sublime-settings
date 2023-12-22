@@ -128,4 +128,5 @@
 	"trim_only_modified_white_space": false,
 	"ensure_newline_at_eof_on_save": true,
 	"color_scheme": "Mariana.sublime-color-scheme",
+	"index_files": true,
 }

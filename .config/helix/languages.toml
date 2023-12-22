@@ -32,3 +32,7 @@ formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
 name = "javascript"
 language-servers = [ "typescript-language-server", "eslint" ]
 formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+
+[[language]]
+name = "json"
+auto-format = false
