@@ -1,6 +1,9 @@
 inherits = "gruvbox_dark_hard"
 
 # "ui.virtual.indent-guide" = "#000000"
+"ui.cursorline" = { bg = "#151515" }
+"ui.selection" = { bg = "bg1" }
+"ui.selection.primary" = { bg = "bg2" }
 
 # "ui.statusline.normal" = { fg = "white", bg = "base4" }
 "ui.statusline.insert" = { fg = "#ffffff", bg = "green0" }
@@ -12,9 +15,6 @@ inherits = "gruvbox_dark_hard"
 
 # This affects picker items
 "ui.text.focus" = { fg = "fg0", bg = "bg1", modifiers = ["bold"] }
-
-# "ui.selection" = { bg = "bg2" }
-# "ui.selection.primary" = { bg = "bg3" }
 
 [palette]
 bg0 = "#000000" # main background

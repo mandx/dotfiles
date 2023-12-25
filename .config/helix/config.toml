@@ -53,6 +53,13 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "C-down" = "goto_next_paragraph"
 "C-u" = "no_op"
 "C-d" = ["search_selection", "select_mode"]
+"W" = "extend_next_word_start"
+"L" = "extend_to_line_end"
+"H" = "extend_to_line_start"
+"S-right" = "extend_char_right"
+"S-left" = "extend_char_left"
+"S-up" = "extend_visual_line_up"
+"S-down" = "extend_visual_line_down"
 
 [keys.select]
 "C-u" = "no_op"
