@@ -1,0 +1,19 @@
+import = [
+  "~/.config/alacritty/Mariana.toml"
+]
+
+[[keyboard.bindings]]
+action = "None"
+key = "Q"
+mods = "Control"
+
+[shell]
+program = "/home/mandx/.cargo/bin/zellij"
+
+[window]
+decorations = "none"
+
+[font]
+size = 11.5
+normal = { family = "Ubuntu Mono" }
+# builtin_box_drawing = false

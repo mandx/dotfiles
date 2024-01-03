@@ -1,6 +1,9 @@
 [character]
 error_symbol = "✖ ❯"
 
+[git_state]
+disabled = false
+
 [git_status]
 ahead = "+"
 behind = "-"
@@ -14,19 +17,32 @@ conflicted = "≠"
 [package]
 display_private = true
 
+[rust]
+disabled = false
+
 [nodejs]
+disabled = false
+symbol = "⬢ "
+
+[deno]
+disabled = false
+
+[direnv]
+disabled = false
+
+[nix_shell]
+disabled = false
+
+[golang]
+disabled = true
+
+[kubernetes]
 disabled = true
 
 [ruby]
 disabled = true
 
 [php]
-disabled = true
-
-[golang]
-disabled = true
-
-[kubernetes]
 disabled = true
 
 [conda]
@@ -54,9 +70,6 @@ disabled = true
 disabled = true
 
 [buf]
-disabled = true
-
-[nix_shell]
 disabled = true
 
 [elixir]
@@ -119,9 +132,6 @@ disabled = true
 [vagrant]
 disabled = true
 
-[deno]
-disabled = true
-
 [vlang]
 disabled = true
 
@@ -170,3 +180,8 @@ disabled = true
 [solidity]
 disabled = true
 
+[typst]
+disabled = true
+
+[fossil_metrics]
+disabled = true
