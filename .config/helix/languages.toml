@@ -31,17 +31,22 @@ enable = true
 cacheOnSave = true
 cache = true
 lint = true
-# Enable completion of importing from registries
 # Enable completion of function calls
 suggest.completeFunctionCalls = false
-suggest.imports = { hosts = { "https://deno.land" = true } }
-# Uncomment to enable inlay hints
-inlayHints.parameterNames.enabled = "all"
-inlayHints.parameterTypes.enabled = true
-inlayHints.variableTypes.enabled = true
-inlayHints.propertyDeclarationTypes.enabled  = true
-inlayHints.functionLikeReturnTypes.enabled = true
-inlayHints.enumMemberValues.enabled = true
+# Enable completion of importing from registries
+# suggest.imports = { hosts = { "https://deno.land" = true } }
+javascript.inlayHints.parameterNames.enabled = true
+typescript.inlayHints.parameterNames.enabled = true
+javascript.inlayHints.prameterTypes.enabled = true
+typescript.inlayHints.prameterTypes.enabled = true
+javascript.inlayHints.variableTypes.enabled = true
+typescript.inlayHints.variableTypes.enabled = true
+javascript.inlayHints.propertyDeclarationTypes.enabled  = true
+typescript.inlayHints.propertyDeclarationTypes.enabled  = true
+javascript.inlayHints.functionLikeReturnTypes.enabled = true
+typescript.inlayHints.functionLikeReturnTypes.enabled = true
+javascript.inlayHints.enumMemberValues.enabled = true
+typescript.inlayHints.enumMemberValues.enabled = true
 
 [[language]]
 name = "typescript"
@@ -61,3 +66,4 @@ formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
 [[language]]
 name = "json"
 auto-format = false
+formatter = { command = "prettier", args = [ "--parser", "json" ] }

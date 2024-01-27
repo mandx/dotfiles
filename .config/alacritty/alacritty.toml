@@ -1,7 +1,3 @@
-import = [
-  "~/.config/alacritty/Mariana.toml"
-]
-
 [[keyboard.bindings]]
 action = "None"
 key = "Q"

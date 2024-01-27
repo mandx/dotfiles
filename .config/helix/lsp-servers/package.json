@@ -1,10 +1,14 @@
 {
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "graphql-language-service-cli": "^3.3.28",
-    "prettier": "^3.1.1",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "graphql-language-service-cli": "^3.3.32",
+    "prettier": "^3.2.4",
     "typescript": "^5.3.3",
-    "typescript-language-server": "^4.2.0",
-    "vscode-langservers-extracted": "^4.8.0"
+    "typescript-language-server": "^4.3.1",
+    "vscode-langservers-extracted": "^4.8.0",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
