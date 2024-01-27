@@ -14,7 +14,7 @@ set -gx JUST_CHOOSER sk
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME '
 alias grep='grep --color=auto '
 alias psgrep='ps -ef | grep -i '
-alias ll='eza -alF --group-directories-first '
+alias ll='eza --all --long --classify --header --hyperlink --group-directories-first '
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias pbcopy='xsel --clipboard --input'

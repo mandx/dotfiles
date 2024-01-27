@@ -82,6 +82,9 @@ o = ":config-open"
 r = ":config-reload"
 l = ":open ~/.config/helix/languages.toml"
 t = ":open ~/.config/helix/themes/mandx.toml"
+O = ":open .helix/config.toml"
+L = ":open .helix/languages.toml"
+I = ":open .helix/ignore"
 
 [keys.select]
 "C-u" = "no_op"
