@@ -185,3 +185,6 @@ disabled = true
 
 [fossil_metrics]
 disabled = true
+
+[quarto]
+disabled = true

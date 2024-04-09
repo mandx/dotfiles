@@ -1,20 +1,11 @@
-inherits = "gruvbox_dark_hard"
+inherits = "catppuccin_mocha"
 
-# "ui.virtual.indent-guide" = "#000000"
-"ui.cursorline" = { bg = "#151515" }
-"ui.selection" = { bg = "bg1" }
-"ui.selection.primary" = { bg = "bg2" }
+"ui.statusline.separator" = { fg = "surface1" }
 
-# "ui.statusline.normal" = { fg = "white", bg = "base4" }
-"ui.statusline.insert" = { fg = "#ffffff", bg = "green0" }
-"ui.statusline.select" = { fg = "#ffffff", bg = "purple0" }
-"ui.statusline.separator" = { fg = "bg0" }
+"ui.bufferline" = { fg = "subtext0", bg = "surface0"}
+"ui.bufferline.active" = { fg = "text", bg = "base", modifiers = [ "bold" ] }
+"ui.bufferline.background" = { bg = "surface0" }
 
-"ui.bufferline" = { fg = "fg1", bg = "bg1"}
-"ui.bufferline.active" = { fg = "fg0", bg = "bg0" }
-
-# This affects picker items
-"ui.text.focus" = { fg = "fg0", bg = "bg1", modifiers = ["bold"] }
-
-[palette]
-bg0 = "#000000" # main background
+"variable.parameter" = { fg = "maroon" }
+"keyword.control.conditional" = { fg = "mauve" }
+"namespace" = { fg = "blue" }

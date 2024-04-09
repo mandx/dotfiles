@@ -1,6 +1,7 @@
 theme = "mandx"
 
 [editor]
+shell = ["fish", "-c"]
 bufferline = "always"
 cursorline = true
 #line-number = "relative"
@@ -30,8 +31,8 @@ mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
 separator = "┋"
-left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator", "file-type", "diagnostics", "separator"]
-center = ["version-control"]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator", "file-type", "diagnostics", "separator", "version-control"]
+center = []
 right = ["separator", "register", "separator", "file-encoding", "separator", "selections", "position", "primary-selection-length"]
 
 [keys.normal]
@@ -45,7 +46,9 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "G" = "goto_last_line"
 "X" = ["extend_line_up", "extend_to_line_bounds"]
 "A-1" = "goto_previous_buffer"
+"C-S-left" = "goto_previous_buffer"
 "A-2" = "goto_next_buffer"
+"C-S-right" = "goto_next_buffer"
 "A-w" = ":buffer-close"
 "A-/" = "toggle_comments"
 "#" = "toggle_comments"
@@ -58,13 +61,14 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "C-d" = ["search_selection", "select_mode"]
 "W" = "extend_next_word_start"
 "L" = "extend_to_line_end"
-"H" = "extend_to_line_start"
+"H" = "extend_to_first_nonwhitespace"
 "S-right" = "extend_char_right"
 "S-left" = "extend_char_left"
 "S-up" = "extend_visual_line_up"
 "S-down" = "extend_visual_line_down"
 
 [keys.normal.space]
+"space" = "command_palette"
 "left" = "jump_view_left"
 "right" = "jump_view_right"
 "up" = "jump_view_up"
@@ -94,6 +98,9 @@ I = ":open .helix/ignore"
 "A-w" = ":buffer-close"
 "A-/" = "toggle_comments"
 "#" = "toggle_comments"
+
+[keys.select.space]
+"space" = "command_palette"
 
 [keys.insert]
 "tab" = ["indent"]

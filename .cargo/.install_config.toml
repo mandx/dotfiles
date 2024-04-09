@@ -5,3 +5,9 @@ features = []
 [starship]
 default_features = false
 features = []
+enforce_lock = true
+
+[gitui]
+default_features = true
+features = []
+enforce_lock = true

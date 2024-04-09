@@ -1,5 +1,5 @@
 # Prevent fish from altering the X clipboard
-set FISH_CLIPBOARD_CMD "cat"
+set FISH_CLIPBOARD_CMD cat
 set -x fish_cursor_selection_mode inclusive
 
 set -gx VISUAL 'hx '
@@ -20,10 +20,17 @@ alias ....='cd ../../..'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
+alias dedupe-stable="awk '!x[\$0]++'"
+alias sort-unique='sort -u'
+alias sort-uniq='sort -u'
+
+alias nvim='hx'
+alias vim='hx'
+alias vi='hx'
 
 switch (uname)
-  case 'Linux'
-    set -x BROWSER 'firefox '
+    case Linux
+        set -x BROWSER 'firefox '
 end
 
 # Initialize `pipenv` if it's available
@@ -34,4 +41,3 @@ end
 if command -sq direnv
     direnv hook fish | source
 end
-
