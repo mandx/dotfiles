@@ -23,6 +23,8 @@ alias pbpaste='xsel --clipboard --output'
 alias dedupe-stable="awk '!x[\$0]++'"
 alias sort-unique='sort -u'
 alias sort-uniq='sort -u'
+alias b64d='base64 --decode -'
+alias b64e='base64 --wrap=0 -'
 
 alias nvim='hx'
 alias vim='hx'
@@ -40,4 +42,8 @@ end
 
 if command -sq direnv
     direnv hook fish | source
+end
+
+if not command -sq fzf; and command -sq sk
+    alias fzf='sk'
 end

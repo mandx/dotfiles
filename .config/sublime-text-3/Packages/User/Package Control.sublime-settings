@@ -1,7 +1,8 @@
 {
 	"bootstrapped": true,
-	"channels":
-	[
+	"channels": [
+		"https://packagecontrol.github.io/channel/channel_v4.json",
+		"https://packagecontrol.io/channel_v3.json",
 		"https://sublime.wbond.net/channel.json"
 	],
 	"http_cache": true,

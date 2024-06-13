@@ -188,3 +188,10 @@ disabled = true
 
 [quarto]
 disabled = true
+
+[gleam]
+disabled = true
+
+[odin]
+disabled = true
+

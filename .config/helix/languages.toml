@@ -35,6 +35,9 @@ lint = true
 suggest.completeFunctionCalls = false
 # Enable completion of importing from registries
 # suggest.imports = { hosts = { "https://deno.land" = true } }
+deno.codeLens.implementations = true
+deno.codeLens.references = true
+deno.codeLens.referencesAllFunctions = true
 javascript.inlayHints.parameterNames.enabled = true
 typescript.inlayHints.parameterNames.enabled = true
 javascript.inlayHints.prameterTypes.enabled = true
