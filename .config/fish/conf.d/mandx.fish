@@ -17,8 +17,20 @@ alias psgrep='ps -ef | grep -i '
 alias ll='eza --all --long --classify --header --hyperlink --group-directories-first '
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
+
+if command -sq xsel; and not command -sq wl-copy
+    alias pbcopy='xsel --clipboard --input'
+end
+if command -sq xsel; and not command -sq wl-paste
+    alias pbpaste='xsel --clipboard --output'
+end
+if command -sq wl-copy; and not command -sq xsel
+    alias pbcopy='wl-copy'
+end
+if command -sq wl-paste; and not command -sq xsel
+    alias pbpaste='wl-paste'
+end
+
 
 alias dedupe-stable="awk '!x[\$0]++'"
 alias sort-unique='sort -u'

@@ -11,6 +11,10 @@ completion-trigger-len = 1
 completion-replace = false
 color-modes = true
 popup-border = "popup"
+end-of-line-diagnostics = "warning"
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
 
 [editor.cursor-shape]
 insert = "bar"
@@ -36,6 +40,7 @@ center = []
 right = ["separator", "register", "separator", "file-encoding", "separator", "selections", "position", "primary-selection-length"]
 
 [keys.normal]
+"S-y" = ["yank_to_clipboard"]
 "tab" = ["indent"]
 "S-tab" = ["unindent"]
 "backspace" = ["move_char_left", "delete_selection_noyank"]
@@ -91,6 +96,7 @@ L = ":open .helix/languages.toml"
 I = ":open .helix/ignore"
 
 [keys.select]
+"S-y" = ["yank_to_clipboard"]
 "C-u" = "no_op"
 "C-d" = ["search_selection", "extend_search_next"]
 "A-1" = "goto_previous_buffer"

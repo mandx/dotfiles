@@ -6,6 +6,9 @@ inherits = "catppuccin_mocha"
 "ui.bufferline.active" = { fg = "text", bg = "base", modifiers = [ "bold" ] }
 "ui.bufferline.background" = { bg = "surface0" }
 
+"ui.picker.header" = { fg = "overlay0", modifiers = [ "underlined" ] }
+"ui.picker.header.active" = { fg = "overlay2", modifiers = [ "underlined" ] }
+
 "variable.parameter" = { fg = "maroon" }
 "keyword.control.conditional" = { fg = "mauve" }
 "namespace" = { fg = "blue" }

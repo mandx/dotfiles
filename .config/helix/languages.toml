@@ -9,11 +9,13 @@ codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
 format = { enable = true }
 nodePath = ""
 quiet = false
-rulesCustomizations = []
+rulesCustomizations = [{ "rule"= "prettier/prettier", "severity"= "warn" }]
 run = "onType"
 validate = "on"
 experimental = {}
 problems = { shortenToSingleLine = false }
+# [language-server.eslint.config.rules]
+# "prettier/prettier" = "warn"
 
 [language-server.typescript-language-server]
 config.documentFormatting = false

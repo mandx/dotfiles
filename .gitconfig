@@ -48,6 +48,7 @@
 	path = ~/github/delta/themes.gitconfig
 
 [delta]
+    dark = true
 	features = side-by-side line-numbers decorations colibri
 
 [difftool]
@@ -76,6 +77,7 @@
 
 [diff]
 	# Detect copies as well as renames
+	colorMoved = default
 	renames = copies
 
 [merge]
