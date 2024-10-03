@@ -1,2 +1,2 @@
 set -gx VOLTA_HOME $HOME/.cache/volta
-set -gx PATH $PATH $VOLTA_HOME/bin
+fish_add_path $VOLTA_HOME/bin

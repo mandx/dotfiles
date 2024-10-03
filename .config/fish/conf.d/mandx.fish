@@ -7,7 +7,7 @@ set -gx LESS '--ignore-case --raw-control-chars '
 set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 
 set -gx GOBIN $HOME/.local/go/bin/
-set -gx PATH $PATH $HOME/.local/bin
+fish_add_path $HOME/.local/bin
 set -gx JUST_CHOOSER sk
 
 # Aliases
@@ -30,7 +30,6 @@ end
 if command -sq wl-paste; and not command -sq xsel
     alias pbpaste='wl-paste'
 end
-
 
 alias dedupe-stable="awk '!x[\$0]++'"
 alias sort-unique='sort -u'
