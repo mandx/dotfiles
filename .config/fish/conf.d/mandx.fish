@@ -58,3 +58,5 @@ end
 if not command -sq fzf; and command -sq sk
     alias fzf='sk'
 end
+
+abbr --add fixup-lf-crlf "mv package-lock.json __package-lock.json; and perl -p -e 's/\n/\r\n/' < __package-lock.json > package-lock.json; and rm __package-lock.json"

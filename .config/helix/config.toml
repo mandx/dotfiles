@@ -44,6 +44,7 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "tab" = ["indent"]
 "S-tab" = ["unindent"]
 "backspace" = ["move_char_left", "delete_selection_noyank"]
+"del" = ["delete_selection_noyank"]
 "ins" = ["insert_mode"]
 "end" = "insert_at_line_end"
 "ret" = "open_below"
