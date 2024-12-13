@@ -4,9 +4,13 @@ keybinds {
     unbind "Alt n"
     unbind "Alt i"
     unbind "Alt o"
+    unbind "Ctrl PageUp"
+    unbind "Ctrl PageDown"
 
     normal {
         unbind "Alt i"
         unbind "Alt o"
+        unbind "Ctrl PageUp"
+        unbind "Ctrl PageDown"
     }
 }

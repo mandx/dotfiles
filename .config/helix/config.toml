@@ -55,7 +55,10 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "C-S-left" = "goto_previous_buffer"
 "A-2" = "goto_next_buffer"
 "C-S-right" = "goto_next_buffer"
+"C-pagedown" = "goto_next_buffer"
+"C-pageup" = "goto_previous_buffer"
 "A-w" = ":buffer-close"
+"C-w" = ":buffer-close"
 "A-/" = "toggle_comments"
 "#" = "toggle_comments"
 "C-left" = "move_prev_word_start"
@@ -97,7 +100,7 @@ L = ":open .helix/languages.toml"
 I = ":open .helix/ignore"
 
 [keys.select]
-"S-y" = ["yank_to_clipboard"]
+"S-y" = "yank_to_clipboard"
 "C-u" = "no_op"
 "C-d" = ["search_selection", "extend_search_next"]
 "A-1" = "goto_previous_buffer"
@@ -105,17 +108,21 @@ I = ":open .helix/ignore"
 "A-w" = ":buffer-close"
 "A-/" = "toggle_comments"
 "#" = "toggle_comments"
+"C-pagedown" = "goto_next_buffer"
+"C-pageup" = "goto_previous_buffer"
 
 [keys.select.space]
 "space" = "command_palette"
 
 [keys.insert]
-"tab" = ["indent"]
-"S-tab" = ["unindent"]
-"ins" = ["normal_mode"]
+"tab" = "indent"
+"S-tab" = "unindent"
+"ins" = "normal_mode"
 "C-left" = ["move_prev_word_start", "collapse_selection"]
 "C-right" = ["move_next_word_start", "collapse_selection"]
 "C-up" = ["goto_prev_paragraph", "collapse_selection"]
 "C-down" = ["goto_next_paragraph", "collapse_selection"]
-"C-home" = ["goto_file_start"]
-"C-end" = ["goto_file_end"]
+"C-home" = "goto_file_start"
+"C-end" = "goto_file_end"
+"C-pagedown" = "goto_next_buffer"
+"C-pageup" = "goto_previous_buffer"

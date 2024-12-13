@@ -3,8 +3,9 @@ action = "None"
 key = "Q"
 mods = "Control"
 
-[shell]
+[terminal.shell]
 program = "/home/mandx/.cargo/bin/zellij"
+# args = ["arg1", "arg2"]
 
 [window]
 decorations = "none"
