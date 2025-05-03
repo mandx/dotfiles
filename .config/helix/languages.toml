@@ -9,13 +9,14 @@ codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
 format = { enable = true }
 nodePath = ""
 quiet = false
-rulesCustomizations = [{ "rule"= "prettier/prettier", "severity"= "warn" }]
+rulesCustomizations = [
+  { "rule" = "prettier/prettier", "severity" = "warn" },
+  { "rule" = "@typescript-eslint/no-unused-vars", "severity" = "warn" },
+]
 run = "onType"
 validate = "on"
 experimental = {}
 problems = { shortenToSingleLine = false }
-# [language-server.eslint.config.rules]
-# "prettier/prettier" = "warn"
 
 [language-server.typescript-language-server]
 config.documentFormatting = false
@@ -72,3 +73,6 @@ formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
 name = "json"
 auto-format = false
 formatter = { command = "prettier", args = [ "--parser", "json" ] }
+
+[language-server.rust-analyzer.config.cargo]
+features = "all"

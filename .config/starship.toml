@@ -198,3 +198,8 @@ disabled = true
 [mojo]
 disabled = true
 
+[c]
+disabled = true
+
+[cpp]
+disabled = true

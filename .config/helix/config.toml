@@ -12,6 +12,9 @@ completion-replace = false
 color-modes = true
 popup-border = "popup"
 end-of-line-diagnostics = "warning"
+rulers = [80, 100]
+trim-final-newlines = true
+trim-trailing-whitespace = true
 
 [editor.inline-diagnostics]
 cursor-line = "warning" # show warnings and errors on the cursorline inline
@@ -29,6 +32,7 @@ render = true
 [editor.lsp]
 # Show LSP messages in the status line
 display-messages = true
+display-progress-messages = true
 
 [editor.statusline]
 mode.normal = "NORMAL"
@@ -52,14 +56,13 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "G" = "goto_last_line"
 "X" = ["extend_line_up", "extend_to_line_bounds"]
 "A-1" = "goto_previous_buffer"
-"C-S-left" = "goto_previous_buffer"
 "A-2" = "goto_next_buffer"
-"C-S-right" = "goto_next_buffer"
 "C-pagedown" = "goto_next_buffer"
 "C-pageup" = "goto_previous_buffer"
 "A-w" = ":buffer-close"
 "C-w" = ":buffer-close"
 "A-/" = "toggle_comments"
+"C-/" = "toggle_comments"
 "#" = "toggle_comments"
 "C-left" = "move_prev_word_start"
 "C-right" = "move_next_word_start"
@@ -67,7 +70,7 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "C-down" = "goto_next_paragraph"
 "C-a" = "select_all"
 "C-u" = "no_op"
-"C-d" = ["search_selection", "select_mode"]
+"C-d" = ["move_prev_word_start", "move_next_word_end", "search_selection", "select_mode"]
 "W" = "extend_next_word_start"
 "L" = "extend_to_line_end"
 "H" = "extend_to_first_nonwhitespace"
@@ -83,6 +86,7 @@ right = ["separator", "register", "separator", "file-encoding", "separator", "se
 "up" = "jump_view_up"
 "down" = "jump_view_down"
 "K" = "signature_help"
+"F" = "file_explorer"
 
 [keys.normal.space.e]
 w = ":write"
@@ -100,6 +104,7 @@ L = ":open .helix/languages.toml"
 I = ":open .helix/ignore"
 
 [keys.select]
+"del" = ["delete_selection_noyank"]
 "S-y" = "yank_to_clipboard"
 "C-u" = "no_op"
 "C-d" = ["search_selection", "extend_search_next"]
@@ -107,6 +112,7 @@ I = ":open .helix/ignore"
 "A-2" = "goto_next_buffer"
 "A-w" = ":buffer-close"
 "A-/" = "toggle_comments"
+"C-/" = "toggle_comments"
 "#" = "toggle_comments"
 "C-pagedown" = "goto_next_buffer"
 "C-pageup" = "goto_previous_buffer"
@@ -126,3 +132,5 @@ I = ":open .helix/ignore"
 "C-end" = "goto_file_end"
 "C-pagedown" = "goto_next_buffer"
 "C-pageup" = "goto_previous_buffer"
+"A-/" = "toggle_comments"
+"C-/" = "toggle_comments"

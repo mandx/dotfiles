@@ -30,11 +30,14 @@
 
 [push]
 	simple = true
+	default = simple
+	autoSetupRemote = true
+	followTags = true
 [pull]
 	rebase = true
 [merge]
 	ff = only
-	conflictstyle = diff3
+	conflictstyle = zdiff3
 [transfer]
 	fsckobjects = true
 
@@ -77,8 +80,10 @@
 
 [diff]
 	# Detect copies as well as renames
-	colorMoved = default
-	renames = copies
+	colorMoved = plain
+	renames = true
+	algorithm = histogram
+	mnemonicPrefix = true
 
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
@@ -99,3 +104,9 @@
 
 [init]
 	defaultBranch = main
+
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+
