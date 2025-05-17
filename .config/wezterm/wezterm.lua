@@ -11,12 +11,12 @@ local config = wezterm.config_builder()
 wezterm.on('update-right-status', function(window, pane)
   local name = window:active_key_table()
   if name then
-    name = 'TABLE: ' .. name
+    name = '(Key Table: ' .. name .. ')'
   end
   window:set_right_status(name or '')
 end)
 
-
+config.term = 'wezterm'
 config.color_scheme = 'Catppuccin Mocha (Gogh)'
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 config.tab_bar_at_bottom = false
@@ -32,19 +32,6 @@ config.window_padding = {
 
 config.window_frame = {
   active_titlebar_bg = '#2b2042',
-  -- inactive_titlebar_fg = '#cccccc',
-  -- active_titlebar_fg = '#ffffff',
-  -- inactive_titlebar_border_bottom = '#2b2042',
-  -- active_titlebar_border_bottom = '#2b2042',
-  -- button_fg = '#cccccc',
-  -- button_bg = '#2b2042',
-  -- button_hover_fg = '#ffffff',
-  -- button_hover_bg = '#3b3052',
-  font = wezterm.font_with_fallback(
-    { family = 'Ubuntu Mono', weight = 'Bold' },
-    { family = 'monospace', weight = 'Bold' }
-  ),
-  -- font = wezterm.font('Ubuntu Mono', { weight = 'Bold' }),
   font_size = 9.5,
 }
 
@@ -225,6 +212,7 @@ config.key_tables = {
   split_pane = {
     { key = 'r', action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },
     { key = 'd', action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
+    { key = 'f', action = act.TogglePaneZoomState },
   },
   copy_mode = {
     { key = 'Tab', mods = 'NONE', action = act.CopyMode 'MoveForwardWord' },
