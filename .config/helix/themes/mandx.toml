@@ -1,14 +1,21 @@
 inherits = "catppuccin_mocha"
 
-"ui.statusline.separator" = { fg = "surface1" }
+"ui.virtual.ruler" = { bg = "crust" }
+"ui.virtual.indent-guide" = "crust"
+"ui.selection" = { bg = "surface0" }
 
-"ui.bufferline" = { fg = "subtext0", bg = "surface0"}
-"ui.bufferline.active" = { fg = "text", bg = "base", modifiers = [ "bold" ] }
+"ui.background" = { fg = "text", bg = "dark" }
+"ui.bufferline" = { fg = "overlay2", bg = "surface0" }
 "ui.bufferline.background" = { bg = "surface0" }
-
+"ui.bufferline.active" = { fg = "text", bg = "base", modifiers = [ "bold" ] }
 "ui.picker.header" = { fg = "overlay0", modifiers = [ "underlined" ] }
 "ui.picker.header.active" = { fg = "overlay2", modifiers = [ "underlined" ] }
+"ui.statusline.separator" = { fg = "surface1" }
 
 "variable.parameter" = { fg = "maroon" }
 "keyword.control.conditional" = { fg = "mauve" }
 "namespace" = { fg = "blue" }
+
+[palette]
+dark = "#000A0F"
+cursorline = "#181825"
