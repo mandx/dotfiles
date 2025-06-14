@@ -19,6 +19,7 @@ end)
 config.term = 'wezterm'
 config.color_scheme = 'Catppuccin Mocha (Gogh)'
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
+
 config.tab_bar_at_bottom = false
 config.use_cap_height_to_scale_fallback_fonts = false
 config.use_fancy_tab_bar = true
@@ -36,8 +37,8 @@ config.window_frame = {
 }
 
 config.keys = {
-  { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
-  { key = 'Tab', mods = 'SHIFT|CTRL', action = act.ActivateTabRelative(-1) },
+  -- { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
+  -- { key = 'Tab', mods = 'SHIFT|CTRL', action = act.ActivateTabRelative(-1) },
   { key = 'Enter', mods = 'ALT', action = act.ToggleFullScreen },
   { key = '!', mods = 'CTRL', action = act.ActivateTab(0) },
   { key = '!', mods = 'SHIFT|CTRL', action = act.ActivateTab(0) },
