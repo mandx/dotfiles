@@ -18,17 +18,26 @@ alias ll='eza --all --long --classify --header --hyperlink --group-directories-f
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-if command -sq xsel; and not command -sq wl-copy
-    alias pbcopy='xsel --clipboard --input'
+if not command -sq pbcopy
+    function pbcopy
+        if command -sq xsel; and not command -sq wl-copy
+            xsel --clipboard --input
+        end
+        if command -sq wl-copy; and not command -sq xsel
+            wl-copy --trim-newline 2>/dev/null
+        end
+    end
 end
-if command -sq xsel; and not command -sq wl-paste
-    alias pbpaste='xsel --clipboard --output'
-end
-if command -sq wl-copy; and not command -sq xsel
-    alias pbcopy='wl-copy'
-end
-if command -sq wl-paste; and not command -sq xsel
-    alias pbpaste='wl-paste'
+
+if not command -sq pbpaste
+    function pbpaste
+        if command -sq xsel; and not command -sq wl-paste
+            xsel --clipboard --output
+        end
+        if command -sq wl-paste; and not command -sq xsel
+            wl-paste --no-newline
+        end
+    end
 end
 
 alias dedupe-stable="awk '!x[\$0]++'"
@@ -60,3 +69,8 @@ if not command -sq fzf; and command -sq sk
 end
 
 abbr --add fixup-lf-crlf "mv package-lock.json __package-lock.json; and perl -p -e 's/\n/\r\n/' < __package-lock.json > package-lock.json; and rm __package-lock.json"
+
+# Remap `prevd-or-backward-word` and `nextd-or-forward-word` because
+# `alt-left`/`alt-right` are used by ZelliJ/Wezterm
+bind alt-shift-left prevd-or-backward-word
+bind alt-shift-right nextd-or-forward-word
